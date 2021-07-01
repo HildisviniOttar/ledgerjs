@@ -2217,6 +2217,36 @@ const cryptocurrenciesById: Record<string, CryptoCurrency> = {
       },
     ],
   },
+  thorchain: {
+    type: "CryptoCurrency",
+    id: "thorchain",
+    coinType: 931,
+    name: "THORChain",
+    managerAppName: "THORChain",
+    ticker: "RUNE",
+    scheme: "thorchain",
+    color: "#23DCC8",
+    family: "cosmos",
+    blockAvgTime: 6,
+    units: [
+      {
+        name: "RUNE",
+        code: "RUNE",
+        magnitude: 8,
+      },
+      {
+        name: "tor",
+        code: "tor",
+        magnitude: 0,
+      },
+    ],
+    explorerViews: [
+      {
+        tx: "https://viewblock.io/thorchain/tx/$hash",
+        address: "https://viewblock.io/thorchain/address/$address",
+      },
+    ],
+  },
   thundercore: {
     type: "CryptoCurrency",
     id: "thundercore",
